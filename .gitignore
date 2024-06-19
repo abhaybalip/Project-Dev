@@ -1,0 +1,3 @@
+
+# Ignore React node modules
+React-Project/*/node_modules/
