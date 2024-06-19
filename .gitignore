@@ -5,4 +5,7 @@ Flutter-Project/**/.build/
 
 # Ignore React node modules
 React-Project/**/node_modules/
-
+# Ignore build artifacts inside React projects
+React-Project/**/build/
+# Consider ignoring test coverage reports
+React-Project/**/coverage/
