@@ -1,3 +1,8 @@
+# Ignore build artifacts inside each Flutter project
+Flutter-Project/**/*.build/
+Flutter-Project/**/.build/
+
 
 # Ignore React node modules
-React-Project/*/node_modules/
+React-Project/**/node_modules/
+
