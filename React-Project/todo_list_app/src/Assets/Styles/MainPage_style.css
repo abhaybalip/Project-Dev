@@ -1,0 +1,20 @@
+.main-page{
+    text-align: center;
+
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.page-title{
+    width: 50vw;
+    margin: 10px;
+
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    
+    font-size: larger;
+    border: 1px solid black;
+    border-radius: 10px;
+}

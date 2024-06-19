@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+form label {
+    margin-right: 10px;
+}
+
+#transactions {
+    margin-top: 20px;
+}
+
+#transactions ul {
+    list-style: none;
+    padding: 0;
+}

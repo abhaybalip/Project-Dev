@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <div class="menu-box">
+            Option List
+            <div class="menu">
+                <ul>
+                    <li>Option 1</li>
+                    <li>Option 2</li>
+                    <li>Option 3</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
+<style>
+    .menu-box{
+        height: 4vh;
+        width: 15vh;
+        border: 1px solid black;
+        text-align: center;
+        display: block;
+        position: relative;
+    }
+    .menu{
+        position: absolute;
+        top: 4vh;
+        left: -1px;
+        width: 15vh;
+        text-align: center;
+        border: 1px solid black;
+        display: none;
+    }
+    .menu-box:hover > .menu{
+        display: block;
+    }
+</style>
+<script></script>

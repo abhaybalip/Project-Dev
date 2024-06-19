@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <div class="box">
+            Home
+            <div class="box-tip">
+                click to open home page
+            </div>
+        </div>
+    </body>
+</html>
+<style>
+    .box{
+        height: 4vh;
+        width: 7vh;
+        text-align: center;
+        border: 1px solid black;
+        position: relative;
+        transition-duration: 0.5s;
+    }
+    .box-tip{
+        height: 3vh;
+        width: 25vh;
+        border: 1px solid black;
+        position: absolute;
+        left: 7vh;
+        bottom: -5vh;
+        display: none;
+    }
+
+    .box:hover .box-tip{
+        display: block;
+    }
+    .box:hover{
+        background-color: lightgrey;
+    }
+</style>

@@ -1,0 +1,25 @@
+.list-item{
+    height: auto;
+    width: 50vw;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+}
+
+.item-title{
+    height: 5vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 40vw;
+    margin: 10px;
+    text-align: center;
+}
+
+.item-menu{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 5vh;
+    width: 5vh;
+    margin: 10px 10px 10px 0;
+    text-align: center;
+}

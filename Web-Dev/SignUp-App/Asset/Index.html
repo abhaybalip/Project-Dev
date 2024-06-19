@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp-Page</title>
+
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="./CSS/Index.css">
+
+    <script src="./scripts.js"></script>
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="head">
+            <p class="text1">Bharat Intern</p>
+            <br>
+            <p class="text2">Full Stack Developement Internship</p>
+            <br>
+            <p class="text3">sign-up page</p>
+        </div>
+        <div class="center">
+            <form action="/signup" method="POST" id="ip-form">
+                <label for="ip-name" id="label-name">Name :</label>
+                <input type="text" name="ip-name" id="ip-name">
+
+                <label for="ip-sname" id="label-sname">surname :</label>
+                <input type="text" name="ip-sname" id="ip-sname">
+
+                <label for="ip-age" id="label-age">Age :</label>
+                <input type="number" name="ip-age" id="ip-age" min="0">
+
+                <label for="ip-gen" id="label-gen">Gender :</label>
+                <select id="ip-gen" name="ip-gen">
+                    <option value="None">select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <div id="btn-reset" onclick="reset()">Reset</div>
+
+                <button type="submit" id="btn-submit" >Submit</button>
+
+                <emoji id="emoji">😊</emoji>
+            </form>
+        </div>
+        <div class="foot">
+        </div>
+
+    </div>
+</body>
+
+</html>

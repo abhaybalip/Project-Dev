@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <div id="menu-box" onmouseover="fcn()" onmouseout="fcn2()">
+            Option
+            <div id="menu">
+                <ul>
+                    <li>Option 1</li>
+                    <li>Option 2</li>
+                    <li>Option 3</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
+<style>
+    #menu-box{
+        height: 4vh;
+        width: 15vh;
+        border: 1px solid black;
+        text-align: center;
+        display: block;
+        position: relative;
+        transition-duration: 0.5s;
+    }
+    #menu{
+        height: auto;
+        width: 15vh;
+        border: 1px solid black;
+        position: absolute;
+        display: none;
+        top: 4vh;
+        left: -1px;
+    }
+</style>
+<script>
+    function fcn(){
+        e = document.getElementById('menu-box')
+        e.style.backgroundColor = 'lightgrey'
+
+        e2 = document.getElementById('menu')
+        e2.style.display = 'block'
+    }
+
+    function fcn2(){
+        e = document.getElementById('menu-box')
+        e.style.backgroundColor = ''
+
+        e2 = document.getElementById('menu')
+        e2.style.display = ''
+    }
+</script>

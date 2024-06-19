@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <div id="div">
+            <img src="http://thenewcode.com/assets/svg/gear.svg"
+            alt="img">
+        </div>
+        <br>
+        <div id="div2"></div>
+    </body>
+</html>
+<style>
+    #div{
+        height: 2in;
+        width: 2in;
+        /* background-color: aquamarine; */
+        /* border: 1px solid black; */
+        /* border-radius: 50%; */
+        position: fixed;
+    }
+    #div2{
+        height: 10in;
+        background-color: lightblue;
+        top: 0px;
+
+    }
+</style>
+<script>
+    window.onscroll=function fcn(){
+        var e = document.getElementById('div')
+        e.style.transform = "rotate(-"+window.pageYOffset+"deg)"
+    }
+</script>
