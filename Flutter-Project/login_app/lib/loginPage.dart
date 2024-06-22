@@ -69,9 +69,9 @@ loginPage(context) {
             ),
             ElevatedButton(
                 onPressed: () {
-                  if (username.text !='' && password.text != '') {
+                  if (username.text != '' && password.text != '') {
                     final user = User(username.text, password.text);
-                    Navigator.pushNamed(context,'/logedin');
+                    Navigator.pushNamed(context, '/logedin');
                   } else {
                     final button = ElevatedButton(
                         onPressed: () {
